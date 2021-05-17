@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <style>
+                #number{margin: 20px}
+        </style>
+    </header>
+    <body>
+        <p>this is my web</p>
+        <p>THI IS SECOND PARAGRAF</p>
+        <h1>This is head 1</h1>
+        <h2 class="head">head 2</h2>
+        <h3 name="head3">head 3 here IS</h3>
+        <h5> here is head5</h5>
+        <p id="query">let check queryseloctor</p>
+        <from>
+         name:   <input type="text" id="name"/>
+         surname:<input type="text" id="surname"/>
+         <input type="button" value="show on the alert" id="evenodd" onclick="alert1()"/>
+         <br>
+         number:<input type="text" id="number"/>
+         <input type="button" value="even/odd" onclick="even/Odd()"/>
+         <br>
+         name:<input type="text" id="long"/>
+         <input type="button" value="check length" onclick="len()"/>
+         <input type="button" value="nameLength" onclick="nameLength()"/>
+         <input type="button" value="changecolor" onclick="changeColor()"/>
+         <input type="buuton" value="changecolor SECOND P" onclick="changeColor1()"/>
+         <input type="button" value="changecClass" onclick ="headTwo()"/>
+         <input type="button" value="changetext" onclick="changeText()"/>
+         <input type="button" value="useName" onclick="useName()"/>
+         <input type="button" value="query" onclick="querySelect()"/>
+         </from>
+         <script>
+             function alert1(){
+                 let name1=document.getElementById("name").value;
+                 let surname1=document.getElementById("surname").value;
+                 alert("your name is : "+name1+"your surname is :" +surname1);
+             }
+         </script>
+         <script> src="index.js" </script>
+    </body>
+</html>

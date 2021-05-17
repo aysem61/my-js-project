@@ -1,0 +1,26 @@
+/*
+If Statement
+if(light===green){
+goStraight();
+}else{
+stop();
+}
+&&, ||, ! operators are used for comparison
+*/
+console.clear();
+const x=4, y=5,z=2;
+if(x>y){
+  console.log('x is greater than 5')
+}else if(x===y){
+  console.log('x is equal to y');
+}else{
+  console.log('non of the above statement is true');//prints this
+}
+if(x>y && x>z){
+  console.log('Block 1');
+}else if(x>y || x>z){
+  console.log('Block 2');//Prints this block
+}else{
+  console.log('Block 3');
+}
+
